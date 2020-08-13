@@ -1,0 +1,40 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "expo": "^38.0.0",
+    "expo-av": "~8.2.1",
+    "expo-font": "~8.2.1",
+    "expo-status-bar": "^1.0.0",
+    "native-base": "^2.13.13",
+    "react": "16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-custom-toast": "^1.0.4",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-sound": "^0.11.0",
+    "react-navigation": "^4.4.0",
+    "react-navigation-stack": "^2.8.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.2.3",
+    "eslint": "^7.4.0",
+    "eslint-config-handlebarlabs": "^0.0.6"
+  },
+  "private": true,
+  "name": "cs-quiz",
+  "version": "1.0.0",
+  "description": "A programming language quiz app.",
+  "author": "Nishant",
+  "license": "MIT"
+}
